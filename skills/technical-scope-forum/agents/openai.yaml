@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Scope Forum"
+  short_description: "Title-first Sky Forum scope discovery"
+  default_prompt: "Use $technical-scope-forum to rescan forum.skyeco.com, validate a technical scope draft, and update the matching template."

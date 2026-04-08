@@ -1,0 +1,322 @@
+version: 1
+as_of: "2026-04-07"
+discovery:
+  primary_search_url: "https://forum.skyeco.com/search.json?q=%22technical%20scope%22%20in%3Atitle"
+  secondary_tag_url: "https://forum.skyeco.com/tag/technical-scope/1444.json"
+  title_search_topic_count: 33
+  tag_feed_topic_count: 23
+  title_phrase: "technical scope"
+  tag_only_outliers:
+    - topic_id: 27825
+      slug: "skylink-bridge-to-avalanche"
+      title: "SkyLink bridge to Avalanche"
+    - topic_id: 27403
+      slug: "solana-bridge-migration"
+      title: "Solana Bridge Migration"
+    - topic_id: 27364
+      slug: "launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution"
+      title: "Launching StarGuard \u2013 an upgrade to the Sky Agents' governance payload execution"
+
+template_metadata_path: "templates/template-metadata.yaml"
+
+topic_mappings:
+  - topic_id: 27825
+    slug: "skylink-bridge-to-avalanche"
+    title: "SkyLink bridge to Avalanche"
+    template_id: "bridge-launch"
+    discovered_via: "tag-outlier"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27780
+    slug: "technical-scope-of-the-new-amatsu-executor-agent"
+    title: "Technical scope of the new AMATSU executor agent"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27779
+    slug: "technical-scope-of-the-new-ozone-executor-agent"
+    title: "Technical scope of the new OZONE executor agent"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27753
+    slug: "technical-scope-safe-harbor-adoption"
+    title: "Technical Scope: Safe Harbor Adoption"
+    template_id: "policy-adoption"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27725
+    slug: "technical-scope-of-the-new-launch-agent-7-allocator-instance"
+    title: "Technical scope of the new Launch Agent 7 allocator instance"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27724
+    slug: "technical-scope-of-the-new-launch-agent-6-allocator-instance"
+    title: "Technical scope of the new Launch Agent 6 allocator instance"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27706
+    slug: "technical-scope-of-rwa001-a-offboarding"
+    title: "Technical Scope of RWA001-A Offboarding"
+    template_id: "system-migration-offboarding"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27642
+    slug: "technical-scope-of-the-new-skybase-agent"
+    title: "Technical scope of the new SKYBASE agent"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27641
+    slug: "technical-scope-of-the-new-pattern-allocator-instance"
+    title: "Technical scope of the new PATTERN allocator instance"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27632
+    slug: "technical-scope-of-grove"
+    title: "Technical Scope of GROVE"
+    template_id: "token-launch"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27567
+    slug: "january-15-2026-prime-technical-scope-parameter-change-for-upcoming-spell"
+    title: "[January 15, 2026] Prime Technical Scope & Parameter Change for upcoming spell"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27514
+    slug: "technical-scope-of-the-core-council-executor-agent-1-launch"
+    title: "Technical Scope of the Core Council Executor Agent 1 Launch"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27441
+    slug: "technical-scope-of-the-starguard-launches-for-grove-keel-and-obex"
+    title: "Technical Scope of the StarGuard Launches for Grove, Keel, and Obex"
+    template_id: "starguard-rollout"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27406
+    slug: "november-27-2025-prime-technical-scope-parameter-change-for-upcoming-spell"
+    title: "[November 27, 2025] Prime Technical Scope & Parameter Change for upcoming spell"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27404
+    slug: "november-27-2025-prime-technical-scope-solana-pre-configuration-for-upcoming-spell"
+    title: "[November 27, 2025] Prime Technical Scope & (Solana) Pre-configuration for upcoming spell"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27403
+    slug: "solana-bridge-migration"
+    title: "Solana Bridge Migration"
+    template_id: "bridge-launch"
+    discovered_via: "tag-outlier"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27380
+    slug: "november-13th-2025-sky-prime-technical-scope-param-changes"
+    title: "[November 13th, 2025] Sky Prime Technical Scope & Param Changes"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27364
+    slug: "launching-starguard-an-upgrade-to-the-sky-agents-governance-payload-execution"
+    title: "Launching StarGuard \u2013 an upgrade to the Sky Agents' governance payload execution"
+    template_id: "starguard-rollout"
+    discovered_via: "tag-outlier"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27350
+    slug: "technical-scope-of-the-kicker-launch"
+    title: "Technical Scope of the Kicker launch"
+    template_id: "module-deployment"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27325
+    slug: "october-30th-2025-sky-prime-technical-scope-param-changes"
+    title: "[October 30th, 2025] Sky Prime Technical Scope & Param Changes"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27314
+    slug: "technical-scope-launch-of-the-agent-4-allocation-system"
+    title: "Technical Scope: Launch of the Agent 4 Allocation System"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27312
+    slug: "technical-scope-lssky-sky-farm"
+    title: "Technical Scope: LSSKY->SKY Farm"
+    template_id: "farm-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27246
+    slug: "technical-scope-of-the-lockstake-capped-osm-wrapper-launch"
+    title: "Technical scope of the Lockstake Capped OSM Wrapper launch"
+    template_id: "module-deployment"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27192
+    slug: "october-02-2025-prime-technical-scope-keel-initialization-for-upcoming-spell"
+    title: "[October 02, 2025] Prime Technical Scope & Keel Initialization for Upcoming spell"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 27177
+    slug: "technical-scope-of-the-monthly-settlement-cycle"
+    title: "Technical scope of the Monthly Settlement Cycle"
+    template_id: "system-migration-offboarding"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27175
+    slug: "technical-scope-of-the-nova-allocator-adjustment"
+    title: "Technical Scope of the Nova Allocator adjustment"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 27129
+    slug: "technical-scope-of-the-stusds-module-launch"
+    title: "Technical scope of the stUSDS module launch"
+    template_id: "module-deployment"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 26703
+    slug: "technical-scope-of-spk-farms"
+    title: "Technical Scope of SPK Farms"
+    template_id: "farm-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 26365
+    slug: "technical-scope-of-the-protego-deployment"
+    title: "Technical scope of the Protego deployment"
+    template_id: "module-deployment"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 26361
+    slug: "technical-scope-of-the-chief-migration"
+    title: "Technical scope of the Chief migration"
+    template_id: "system-migration-offboarding"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 26266
+    slug: "technical-scope-sp-beam-initialization-spell"
+    title: "Technical Scope: SP-BEAM Initialization Spell"
+    template_id: "spell-initialization"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 26190
+    slug: "technical-scope-of-the-star-2-allocator-launch"
+    title: "Technical Scope of the Star 2 Allocator Launch"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 26128
+    slug: "technical-scope-of-the-eth-and-wsteth-oracles-migration"
+    title: "Technical scope of the ETH and WSTETH oracles migration"
+    template_id: "oracle-migration"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
+
+  - topic_id: 26031
+    slug: "technical-scope-of-the-nova-allocator-instance"
+    title: "Technical Scope of the Nova Allocator Instance"
+    template_id: "allocator-instance-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 25972
+    slug: "technical-scope-of-the-arbitrum-token-gateway-launch"
+    title: "Technical scope of the Arbitrum Token Gateway launch"
+    template_id: "bridge-launch"
+    discovered_via: "title-search"
+    has_forum_tag: true
+    compliance_issues: []
+
+  - topic_id: 25715
+    slug: "technical-scope-of-the-wbtc-oracle-migration"
+    title: "Technical scope of the WBTC Oracle Migration"
+    template_id: "oracle-migration"
+    discovered_via: "title-search"
+    has_forum_tag: false
+    compliance_issues:
+      - "missing-technical-scope-tag"
