@@ -5,6 +5,7 @@ Instructions:
 - Keep the forum-post structure close to the best-in-class example linked above.
 - Keep the Relevant audits section exactly as written below unless the canonical audit set changes.
 - Placeholder conventions:
+  - <author or team> = authoring entity, for example Sidestream EA
   - <Destination Chain> = target chain name
   - <Destination Chain Mainnet> = target chain full network name
   - <Destination Explorer Address URL> = chain explorer code page for the deployed address
@@ -29,7 +30,7 @@ Instructions:
 
 # Technical scope of the new SkyLink bridge to `<Destination Chain>`
 
-Sidestream EA has been asked to assess the technical scope for launching the new SkyLink bridge to `<Destination Chain>`. The document was prepared based on the [initial process description](<process description URL>), LayerZero's internal "playbook" documentation, [LayerZero docs](https://docs.layerzero.network/v2/home/intro), and the relevant audits listed below.
+<author or team> has been asked to assess the technical scope for launching the new SkyLink bridge to `<Destination Chain>`. The document was prepared based on the [initial process description](<process description URL>), LayerZero's internal "playbook" documentation, [LayerZero docs](https://docs.layerzero.network/v2/home/intro), and the relevant audits listed below.
 
 The document focuses on launching the Governance, USDS and sUSDS token bridge to `<Destination Chain>`; PSM, Oracle, and Grove's ALM governance migration is out of the scope of this document. Wiring the new OFT to `<other explicitly excluded chain or system>` is also explicitly out of scope due to the additional external complexity it introduces.
 
